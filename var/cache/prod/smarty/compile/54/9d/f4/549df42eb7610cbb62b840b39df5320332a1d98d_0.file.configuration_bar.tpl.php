@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-11-17 18:40:10
+/* Smarty version 3.1.33, created on 2020-11-22 19:52:47
   from '/var/www/html/admin9318yx5nn/themes/default/template/controllers/modules/configuration_bar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5fb3fcea9e6c99_28293664',
+  'unifunc' => 'content_5fbaa56f318a05_81670901',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5fb3fcea9e6c99_28293664 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5fbaa56f318a05_81670901 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/html/vendor/smarty/smarty/libs/plugins/modifier.regex_replace.php','function'=>'smarty_modifier_regex_replace',),));
 ?>
 

@@ -64,11 +64,12 @@ class Wishlist extends Module
         Configuration::updateValue('WISHLIST_LIVE_MODE', false);
 
         include(dirname(__FILE__).'/sql/install.php');
-
         return parent::install() &&
-            $this->registerHook('header') &&
             $this->registerHook('backOfficeHeader') &&
-            $this->registerHook('displayNav');
+            $this->registerHook('displayProductAdditionalInfo') &&
+            $this->registerHook('header');
+            $this->registerHook('displayProductPriceBlock');
+            
     }
 
     public function uninstall()
@@ -206,25 +207,38 @@ class Wishlist extends Module
     /**
     * Add the CSS & JavaScript files you want to be loaded in the BO.
     */
-    public function hookBackOfficeHeader()
-    {
-        if (Tools::getValue('module_name') == $this->name) {
-            $this->context->controller->addJS($this->_path.'views/js/back.js');
-            $this->context->controller->addCSS($this->_path.'views/css/back.css');
-        }
-    }
+    // public function hookBackOfficeHeader()
+    // {
+    //     if (Tools::getValue('module_name') == $this->name) {
+    //         $this->context->controller->addJS($this->_path.'views/js/back.js');
+    //         $this->context->controller->addCSS($this->_path.'views/css/back.css');
+    //     }
+    // }
 
     /**
      * Add the CSS & JavaScript files you want to be added on the FO.
      */
     public function hookHeader()
     {
-        $this->context->controller->addJS($this->_path.'/views/js/front.js');
-        $this->context->controller->addCSS($this->_path.'/views/css/front.css');
+        $this->context->controller->addJS($this->_path.'views/js/front.js');
+        $this->context->controller->addCSS($this->_path.'views/css/front.css');
+        $this->context->controller->addCSS($this->_path.'views/css/heart.css');
     }
 
-    public function hookDisplayNav()
+    public function hookDisplayProductAdditionalInfo()
     {
-        /* Place your code here. */
+        
+        return "<svg class='heart' viewBox='0 0 32 29.6'>
+        <path d='M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+      c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z'/>
+      </svg> ";
+    }
+    
+    public function hookDisplayProductPriceBlock()
+    {
+        return "<svg class='heart' viewBox='0 0 32 29.6'>
+        <path d='M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+      c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z'/>
+      </svg> ";
     }
 }

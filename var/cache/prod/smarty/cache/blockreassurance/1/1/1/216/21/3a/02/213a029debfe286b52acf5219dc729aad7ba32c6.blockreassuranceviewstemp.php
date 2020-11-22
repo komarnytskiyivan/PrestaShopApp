@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-11-17 19:34:34
+/* Smarty version 3.1.33, created on 2020-11-22 19:54:33
   from 'module:blockreassuranceviewstemp' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5fb409aa078df0_71156319',
+  'unifunc' => 'content_5fbaa5d9d2c114_04847357',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_5fb409aa078df0_71156319 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5fbaa5d9d2c114_04847357 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
 ));
 ?>  <div id="block-reassurance">

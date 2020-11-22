@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-11-19 16:19:32
+/* Smarty version 3.1.33, created on 2020-11-22 19:53:36
   from 'module:psfeaturedproductsviewste' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5fb67ef4e8bb89_21839285',
+  'unifunc' => 'content_5fbaa5a01e7410_10454071',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     '4e48f9081812442e5797c9033049dad3e79d82e7' => 
     array (
       0 => '/var/www/html/themes/classic/templates/catalog/_partials/miniatures/product.tpl',
-      1 => 1600952248,
+      1 => 1606046869,
       2 => 'file',
     ),
     'e64c699d70ea897ec9ed5b992b73872ad92542b6' => 
@@ -30,7 +30,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_5fb67ef4e8bb89_21839285 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5fbaa5a01e7410_10454071 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="featured-products clearfix">
   <h2 class="h2 products-section-title text-uppercase">
     Популярні товари
@@ -54,6 +54,7 @@ function content_5fb67ef4e8bb89_21839285 (Smarty_Internal_Template $_smarty_tpl)
                       <h3 class="h3 product-title" itemprop="name"><a href="http://localhost:8080/index.php?id_product=1&amp;id_product_attribute=1&amp;rewrite=hummingbird-printed-t-shirt&amp;controller=product#/1-rozmir-s/8-kolir-bilij">Hummingbird printed t-shirt</a></h3>
                   
 
+        
         
                       <div class="product-price-and-shipping">
                               
@@ -129,6 +130,7 @@ function content_5fb67ef4e8bb89_21839285 (Smarty_Internal_Template $_smarty_tpl)
                   
 
         
+        
                       <div class="product-price-and-shipping">
                               
 
@@ -192,6 +194,7 @@ function content_5fb67ef4e8bb89_21839285 (Smarty_Internal_Template $_smarty_tpl)
                   
 
         
+        
                       <div class="product-price-and-shipping">
               
               
@@ -248,6 +251,7 @@ function content_5fb67ef4e8bb89_21839285 (Smarty_Internal_Template $_smarty_tpl)
                       <h3 class="h3 product-title" itemprop="name"><a href="http://localhost:8080/index.php?id_product=4&amp;id_product_attribute=16&amp;rewrite=the-adventure-begins-framed-poster&amp;controller=product#/19-dimension-40x60cm">The adventure begins Framed...</a></h3>
                   
 
+        
         
                       <div class="product-price-and-shipping">
               
@@ -306,6 +310,7 @@ function content_5fb67ef4e8bb89_21839285 (Smarty_Internal_Template $_smarty_tpl)
                   
 
         
+        
                       <div class="product-price-and-shipping">
               
               
@@ -362,6 +367,7 @@ function content_5fb67ef4e8bb89_21839285 (Smarty_Internal_Template $_smarty_tpl)
                       <h3 class="h3 product-title" itemprop="name"><a href="http://localhost:8080/index.php?id_product=6&amp;rewrite=mug-the-best-is-yet-to-come&amp;controller=product">Mug The best is yet to come</a></h3>
                   
 
+        
         
                       <div class="product-price-and-shipping">
               
@@ -420,6 +426,7 @@ function content_5fb67ef4e8bb89_21839285 (Smarty_Internal_Template $_smarty_tpl)
                   
 
         
+        
                       <div class="product-price-and-shipping">
               
               
@@ -476,6 +483,7 @@ function content_5fb67ef4e8bb89_21839285 (Smarty_Internal_Template $_smarty_tpl)
                       <h3 class="h3 product-title" itemprop="name"><a href="http://localhost:8080/index.php?id_product=8&amp;rewrite=mug-today-is-a-good-day&amp;controller=product">Mug Today is a good day</a></h3>
                   
 
+        
         
                       <div class="product-price-and-shipping">
               

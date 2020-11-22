@@ -1181,6 +1181,8 @@ class AdminContainer extends Container
                 57 => 'ps_buybuttonlite',
                 58 => 'blockreassurance',
                 59 => 'ps_facetedsearch',
+                60 => 'Wishlist',
+                61 => 'wishlist2',
             ],
             'ps_cache_dir' => '/var/www/html/var/cache/prod/',
             'mail_themes_uri' => '/mails/themes',
