@@ -1204,6 +1204,8 @@ class FrontContainer extends Container
                 59 => 'ps_facetedsearch',
                 60 => 'Wishlist',
                 61 => 'wishlist2',
+                62 => 'hiaddtocartbutton',
+                63 => 'actuallywishlist',
             ],
             'ps_cache_dir' => '/var/www/html/var/cache/prod/',
             'mail_themes_uri' => '/mails/themes',

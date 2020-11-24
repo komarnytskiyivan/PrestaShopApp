@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-11-22 19:53:36
+/* Smarty version 3.1.33, created on 2020-11-24 23:46:45
   from 'module:psfeaturedproductsviewste' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5fbaa5a01e7410_10454071',
+  'unifunc' => 'content_5fbd7f45012410_88961498',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -30,7 +30,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_5fbaa5a01e7410_10454071 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5fbd7f45012410_88961498 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="featured-products clearfix">
   <h2 class="h2 products-section-title text-uppercase">
     Популярні товари
@@ -75,7 +75,28 @@ function content_5fbaa5a01e7410_10454071 (Smarty_Internal_Template $_smarty_tpl)
                   
 
         
-          
+          <form action="http://localhost:8080/index.php?controller=cart" method="post" class="hiaddtocart">
+            <input type="hidden" name="token" value="db0fff93848759d257c173bc78222174">
+        <input type="hidden" name="id_product" value="1" class="product_page_product_id">
+        <input type="hidden" name="id_customization" value="0" class="product_customization_id">
+                <button 
+            class="btn btn-primary add-to-cart" 
+            data-button-action="add-to-cart" 
+            type="submit"
+            >
+            <i class="material-icons shopping-cart"></i> Add To Cart
+        </button>
+
+        <span class="product-availability">
+            <i class="material-icons product-unavailable"></i>
+            There are not enough products in stock
+        </span>
+    </form>
+
+<svg class='heart' viewBox='0 0 32 29.6'>
+        <path d='M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+      c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z'/>
+      </svg> 
         
       </div>
 
@@ -150,7 +171,28 @@ function content_5fbaa5a01e7410_10454071 (Smarty_Internal_Template $_smarty_tpl)
                   
 
         
-          
+          <form action="http://localhost:8080/index.php?controller=cart" method="post" class="hiaddtocart">
+            <input type="hidden" name="token" value="db0fff93848759d257c173bc78222174">
+        <input type="hidden" name="id_product" value="2" class="product_page_product_id">
+        <input type="hidden" name="id_customization" value="0" class="product_customization_id">
+                <button 
+            class="btn btn-primary add-to-cart" 
+            data-button-action="add-to-cart" 
+            type="submit"
+            >
+            <i class="material-icons shopping-cart"></i> Add To Cart
+        </button>
+
+        <span class="product-availability">
+            <i class="material-icons product-unavailable"></i>
+            There are not enough products in stock
+        </span>
+    </form>
+
+<svg class='heart' viewBox='0 0 32 29.6'>
+        <path d='M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+      c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z'/>
+      </svg> 
         
       </div>
 
@@ -209,7 +251,28 @@ function content_5fbaa5a01e7410_10454071 (Smarty_Internal_Template $_smarty_tpl)
                   
 
         
-          
+          <form action="http://localhost:8080/index.php?controller=cart" method="post" class="hiaddtocart">
+            <input type="hidden" name="token" value="db0fff93848759d257c173bc78222174">
+        <input type="hidden" name="id_product" value="3" class="product_page_product_id">
+        <input type="hidden" name="id_customization" value="0" class="product_customization_id">
+                <button 
+            class="btn btn-primary add-to-cart" 
+            data-button-action="add-to-cart" 
+            type="submit"
+            >
+            <i class="material-icons shopping-cart"></i> Add To Cart
+        </button>
+
+        <span class="product-availability">
+            <i class="material-icons product-unavailable"></i>
+            There are not enough products in stock
+        </span>
+    </form>
+
+<svg class='heart' viewBox='0 0 32 29.6'>
+        <path d='M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+      c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z'/>
+      </svg> 
         
       </div>
 
@@ -267,7 +330,28 @@ function content_5fbaa5a01e7410_10454071 (Smarty_Internal_Template $_smarty_tpl)
                   
 
         
-          
+          <form action="http://localhost:8080/index.php?controller=cart" method="post" class="hiaddtocart">
+            <input type="hidden" name="token" value="db0fff93848759d257c173bc78222174">
+        <input type="hidden" name="id_product" value="4" class="product_page_product_id">
+        <input type="hidden" name="id_customization" value="0" class="product_customization_id">
+                <button 
+            class="btn btn-primary add-to-cart" 
+            data-button-action="add-to-cart" 
+            type="submit"
+            >
+            <i class="material-icons shopping-cart"></i> Add To Cart
+        </button>
+
+        <span class="product-availability">
+            <i class="material-icons product-unavailable"></i>
+            There are not enough products in stock
+        </span>
+    </form>
+
+<svg class='heart' viewBox='0 0 32 29.6'>
+        <path d='M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+      c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z'/>
+      </svg> 
         
       </div>
 
@@ -325,7 +409,28 @@ function content_5fbaa5a01e7410_10454071 (Smarty_Internal_Template $_smarty_tpl)
                   
 
         
-          
+          <form action="http://localhost:8080/index.php?controller=cart" method="post" class="hiaddtocart">
+            <input type="hidden" name="token" value="db0fff93848759d257c173bc78222174">
+        <input type="hidden" name="id_product" value="5" class="product_page_product_id">
+        <input type="hidden" name="id_customization" value="0" class="product_customization_id">
+                <button 
+            class="btn btn-primary add-to-cart" 
+            data-button-action="add-to-cart" 
+            type="submit"
+            >
+            <i class="material-icons shopping-cart"></i> Add To Cart
+        </button>
+
+        <span class="product-availability">
+            <i class="material-icons product-unavailable"></i>
+            There are not enough products in stock
+        </span>
+    </form>
+
+<svg class='heart' viewBox='0 0 32 29.6'>
+        <path d='M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+      c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z'/>
+      </svg> 
         
       </div>
 
@@ -383,7 +488,28 @@ function content_5fbaa5a01e7410_10454071 (Smarty_Internal_Template $_smarty_tpl)
                   
 
         
-          
+          <form action="http://localhost:8080/index.php?controller=cart" method="post" class="hiaddtocart">
+            <input type="hidden" name="token" value="db0fff93848759d257c173bc78222174">
+        <input type="hidden" name="id_product" value="6" class="product_page_product_id">
+        <input type="hidden" name="id_customization" value="0" class="product_customization_id">
+                <button 
+            class="btn btn-primary add-to-cart" 
+            data-button-action="add-to-cart" 
+            type="submit"
+            >
+            <i class="material-icons shopping-cart"></i> Add To Cart
+        </button>
+
+        <span class="product-availability">
+            <i class="material-icons product-unavailable"></i>
+            There are not enough products in stock
+        </span>
+    </form>
+
+<svg class='heart' viewBox='0 0 32 29.6'>
+        <path d='M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+      c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z'/>
+      </svg> 
         
       </div>
 
@@ -441,7 +567,28 @@ function content_5fbaa5a01e7410_10454071 (Smarty_Internal_Template $_smarty_tpl)
                   
 
         
-          
+          <form action="http://localhost:8080/index.php?controller=cart" method="post" class="hiaddtocart">
+            <input type="hidden" name="token" value="db0fff93848759d257c173bc78222174">
+        <input type="hidden" name="id_product" value="7" class="product_page_product_id">
+        <input type="hidden" name="id_customization" value="0" class="product_customization_id">
+                <button 
+            class="btn btn-primary add-to-cart" 
+            data-button-action="add-to-cart" 
+            type="submit"
+            >
+            <i class="material-icons shopping-cart"></i> Add To Cart
+        </button>
+
+        <span class="product-availability">
+            <i class="material-icons product-unavailable"></i>
+            There are not enough products in stock
+        </span>
+    </form>
+
+<svg class='heart' viewBox='0 0 32 29.6'>
+        <path d='M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+      c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z'/>
+      </svg> 
         
       </div>
 
@@ -499,7 +646,28 @@ function content_5fbaa5a01e7410_10454071 (Smarty_Internal_Template $_smarty_tpl)
                   
 
         
-          
+          <form action="http://localhost:8080/index.php?controller=cart" method="post" class="hiaddtocart">
+            <input type="hidden" name="token" value="db0fff93848759d257c173bc78222174">
+        <input type="hidden" name="id_product" value="8" class="product_page_product_id">
+        <input type="hidden" name="id_customization" value="0" class="product_customization_id">
+                <button 
+            class="btn btn-primary add-to-cart" 
+            data-button-action="add-to-cart" 
+            type="submit"
+            >
+            <i class="material-icons shopping-cart"></i> Add To Cart
+        </button>
+
+        <span class="product-availability">
+            <i class="material-icons product-unavailable"></i>
+            There are not enough products in stock
+        </span>
+    </form>
+
+<svg class='heart' viewBox='0 0 32 29.6'>
+        <path d='M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+      c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z'/>
+      </svg> 
         
       </div>
 
