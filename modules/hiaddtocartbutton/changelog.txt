@@ -1,0 +1,32 @@
+Version 1.0.10
+    * Add to cart button was not updating on mobile when qty changed.
+
+.Version 1.0.9
+    * Fixed Add to cart button issue when pagination used.
+
+Version 1.0.8
+    * Bug fixes.
+
+Version 1.0.7
+    * Fix issue when stock management is disabled.
+
+Version 1.0.6
+    * Fix for add to cart button when maximum qty is on cart.
+
+Version 1.0.5
+    * Disable add to cart button when stock < selected qty.
+
+Version 1.0.4
+    * Fix for customizable products.
+
+Version 1.0.3
+    * Fix for quantity input field when pagination used.
+
+Version 1.0.2
+    * Disable Add to cart button when product is out of stock.
+
+Version 1.0.1
+    * Fixed Add to cart issue when customer is logged in.
+
+Version 1.0.0
+    * initial release.
