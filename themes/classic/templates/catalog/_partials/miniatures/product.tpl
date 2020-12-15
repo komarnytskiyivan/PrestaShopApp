@@ -51,7 +51,6 @@
         {/block}
 
         {block name='product_price_and_shipping'}
-        {hook h='displayProdList'}
           {if $product.show_price}
             <div class="product-price-and-shipping">
               {if $product.has_discount}

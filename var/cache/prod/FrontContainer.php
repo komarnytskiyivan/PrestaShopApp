@@ -292,7 +292,7 @@ class FrontContainer extends Container
      */
     protected function getDoctrine_Dbal_DefaultConnectionService()
     {
-        return $this->services['doctrine.dbal.default_connection'] = ${($_ = isset($this->services['doctrine.dbal.connection_factory']) ? $this->services['doctrine.dbal.connection_factory'] : ($this->services['doctrine.dbal.connection_factory'] = new \Doctrine\Bundle\DoctrineBundle\ConnectionFactory([]))) && false ?: '_'}->createConnection(['driver' => 'pdo_mysql', 'host' => 'some-mysql', 'port' => '', 'dbname' => 'presta_h2s', 'user' => 'root', 'password' => 'admin', 'charset' => 'UTF8', 'driverOptions' => [1002 => 'SET sql_mode=(SELECT REPLACE(@@sql_mode,\'ONLY_FULL_GROUP_BY\',\'\'))'], 'serverVersion' => 5.0999999999999996, 'defaultTableOptions' => []], new \Doctrine\DBAL\Configuration(), new \Symfony\Bridge\Doctrine\ContainerAwareEventManager($this), ['enum' => 'string']);
+        return $this->services['doctrine.dbal.default_connection'] = ${($_ = isset($this->services['doctrine.dbal.connection_factory']) ? $this->services['doctrine.dbal.connection_factory'] : ($this->services['doctrine.dbal.connection_factory'] = new \Doctrine\Bundle\DoctrineBundle\ConnectionFactory([]))) && false ?: '_'}->createConnection(['driver' => 'pdo_mysql', 'host' => 'some-mysql', 'port' => '', 'dbname' => 'prestashop', 'user' => 'root', 'password' => 'admin', 'charset' => 'UTF8', 'driverOptions' => [1002 => 'SET sql_mode=(SELECT REPLACE(@@sql_mode,\'ONLY_FULL_GROUP_BY\',\'\'))'], 'serverVersion' => 5.0999999999999996, 'defaultTableOptions' => []], new \Doctrine\DBAL\Configuration(), new \Symfony\Bridge\Doctrine\ContainerAwareEventManager($this), ['enum' => 'string']);
     }
 
     /**
@@ -1114,7 +1114,7 @@ class FrontContainer extends Container
         return [
             'database_host' => 'some-mysql',
             'database_port' => '',
-            'database_name' => 'presta_h2s',
+            'database_name' => 'prestashop',
             'database_user' => 'root',
             'database_password' => 'admin',
             'database_prefix' => 'ps_',
@@ -1123,15 +1123,15 @@ class FrontContainer extends Container
             'mailer_host' => '127.0.0.1',
             'mailer_user' => NULL,
             'mailer_password' => NULL,
-            'secret' => 'MfYBIKZTzXPokw6Q1ieETa00G4uf747EY7fp4OAbEh8womd5hsKKP4D4',
+            'secret' => 'RTq1DzgnMRpGYJGxH1OQKRO7kyHmpnnafLzZm7UpJjt16muwYztiCdDo',
             'ps_caching' => 'CacheMemcache',
             'ps_cache_enable' => false,
-            'ps_creation_date' => '2020-11-17',
-            'locale' => 'uk-UA',
+            'ps_creation_date' => '2020-12-15',
+            'locale' => 'en-US',
             'use_debug_toolbar' => true,
-            'cookie_key' => 'Vo7FV6uyiiSBtRcNSGNpVUaNPSmZHpjAC1hsGDTfckCYdMv4t2SU9Zu0',
-            'cookie_iv' => 'FLbuSrDX',
-            'new_cookie_key' => 'def00000644c85b7bdfad2a11553852f1d9d3eb69b1095edd222bdfc4b44ae8495f56d0f1118b9cb861edf6cc182516f8a56acbb960cb192fe4f4d65b36ad9e21a03c97b',
+            'cookie_key' => 'HmAr8VNcebrG54J4xhpeJFWSUcIX0DY6T74i1y5UaPNB9c613kks9VoZ',
+            'cookie_iv' => 'ygkOegMe',
+            'new_cookie_key' => 'def0000029e027eda022dbeb952dd7e5dfb716c66540250fa0d15cbd8177fe5ddeabc04a216d5ad62341b744e98724c3aa392f297d0ec7591eb786037391a12ebdbfe611',
             'cache.driver' => 'array',
             'kernel.bundles' => [
 
@@ -1202,10 +1202,7 @@ class FrontContainer extends Container
                 57 => 'ps_buybuttonlite',
                 58 => 'blockreassurance',
                 59 => 'ps_facetedsearch',
-                60 => 'Wishlist',
-                61 => 'wishlist2',
-                62 => 'hiaddtocartbutton',
-                63 => 'actuallywishlist',
+                60 => 'wishlist',
             ],
             'ps_cache_dir' => '/var/www/html/var/cache/prod/',
             'mail_themes_uri' => '/mails/themes',
