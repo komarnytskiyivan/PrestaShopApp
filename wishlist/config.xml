@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>wishlist</name>
+	<displayName><![CDATA[wishlist by me]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Your description here]]></description>
+	<author><![CDATA[Іван Комарницький]]></author>
+	<tab><![CDATA[content_management]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
