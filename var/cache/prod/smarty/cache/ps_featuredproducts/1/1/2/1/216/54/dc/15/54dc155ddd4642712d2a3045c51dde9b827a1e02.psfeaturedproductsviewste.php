@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-12-15 13:40:19
+/* Smarty version 3.1.33, created on 2020-12-21 00:41:32
   from 'module:psfeaturedproductsviewste' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5fd8a0a32d73b7_45632910',
+  'unifunc' => 'content_5fdfd31c51c524_19221770',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -30,7 +30,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_5fd8a0a32d73b7_45632910 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5fdfd31c51c524_19221770 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="featured-products clearfix">
   <h2 class="h2 products-section-title text-uppercase">
     Популярні товари
@@ -56,108 +56,20 @@ function content_5fd8a0a32d73b7_45632910 (Smarty_Internal_Template $_smarty_tpl)
 
         
                       <div class="product-price-and-shipping">
-                              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+                              
 
                 <span class="sr-only">Базова ціна</span>
                 <span class="regular-price">28,68 ₴</span>
                                   <span class="discount-percentage discount-product">-20%</span>
                               
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
 
               <span class="sr-only">Ціна</span>
               <span itemprop="price" class="price">22,94 ₴</span>
 
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
+              
 
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
-
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
             </div>
                   
 
@@ -218,108 +130,20 @@ function content_5fd8a0a32d73b7_45632910 (Smarty_Internal_Template $_smarty_tpl)
 
         
                       <div class="product-price-and-shipping">
-                              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+                              
 
                 <span class="sr-only">Базова ціна</span>
                 <span class="regular-price">43,08 ₴</span>
                                   <span class="discount-percentage discount-product">-20%</span>
                               
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
 
               <span class="sr-only">Ціна</span>
               <span itemprop="price" class="price">34,46 ₴</span>
 
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
+              
 
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
-
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
             </div>
                   
 
@@ -370,80 +194,14 @@ function content_5fd8a0a32d73b7_45632910 (Smarty_Internal_Template $_smarty_tpl)
         
                       <div class="product-price-and-shipping">
               
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
 
               <span class="sr-only">Ціна</span>
               <span itemprop="price" class="price">34,80 ₴</span>
 
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
+              
 
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
-
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
             </div>
                   
 
@@ -493,80 +251,14 @@ function content_5fd8a0a32d73b7_45632910 (Smarty_Internal_Template $_smarty_tpl)
         
                       <div class="product-price-and-shipping">
               
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
 
               <span class="sr-only">Ціна</span>
               <span itemprop="price" class="price">34,80 ₴</span>
 
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
+              
 
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
-
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
             </div>
                   
 
@@ -616,80 +308,14 @@ function content_5fd8a0a32d73b7_45632910 (Smarty_Internal_Template $_smarty_tpl)
         
                       <div class="product-price-and-shipping">
               
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
 
               <span class="sr-only">Ціна</span>
               <span itemprop="price" class="price">34,80 ₴</span>
 
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
+              
 
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
-
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
             </div>
                   
 
@@ -739,80 +365,14 @@ function content_5fd8a0a32d73b7_45632910 (Smarty_Internal_Template $_smarty_tpl)
         
                       <div class="product-price-and-shipping">
               
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
 
               <span class="sr-only">Ціна</span>
               <span itemprop="price" class="price">14,28 ₴</span>
 
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
+              
 
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
-
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
             </div>
                   
 
@@ -862,80 +422,14 @@ function content_5fd8a0a32d73b7_45632910 (Smarty_Internal_Template $_smarty_tpl)
         
                       <div class="product-price-and-shipping">
               
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
 
               <span class="sr-only">Ціна</span>
               <span itemprop="price" class="price">14,28 ₴</span>
 
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
+              
 
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
-
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
             </div>
                   
 
@@ -985,80 +479,14 @@ function content_5fd8a0a32d73b7_45632910 (Smarty_Internal_Template $_smarty_tpl)
         
                       <div class="product-price-and-shipping">
               
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
 
               <span class="sr-only">Ціна</span>
               <span itemprop="price" class="price">14,28 ₴</span>
 
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
+              
 
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
-
-              <style type="text/css">
-.product-list-wishlist {
-    border: 1px solid red;
-    position: absolute;
-    top: -26px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 4px 0;
-}
-</style>
-<div class="product-list-wishlist">
-<form action='../modules/wishlist/addtowishlist.php' method='POST'>
-
-<input type='text' value='' style='display:none'>
-
-<button type='submit'>&#128420;</button>
-
-</form>
-</div>
+              
             </div>
                   
 

@@ -6,6 +6,14 @@
     <language>en</language>
      <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Differences between online store and marketplace: which one is right for you?</title>
+    <link>https://www.prestashop.com/en/blog/differences-marketplace-ecommerce</link>
+    <description>Selling online is becoming increasingly simple and profitable over time. Using digital market is now much safer than in years past.</description>
+     <pubDate>Mon, 14 Dec 2020 17:58:22 +0100</pubDate>
+ <dc:creator>luca mastroianni</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/differences-marketplace-ecommerce</guid>
+  </item>
+  <item>
     <title>How to create the perfect team for your e-commerce</title>
     <link>https://www.prestashop.com/en/blog/perfect-team-e-commerce</link>
     <description>You&#039;ve had an idea for an e-commerce that seems to work great and all you need now is a good team of trustworthy and professional people to entrust with the different tasks to get the machine runni</description>
@@ -76,14 +84,6 @@
      <pubDate>Fri, 06 Nov 2020 17:12:39 +0100</pubDate>
  <dc:creator>Alexandre Eruimy</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/en/blog/prestashop-supporting-commerce</guid>
-  </item>
-  <item>
-    <title>Three predictions for festive season shopping in 2020</title>
-    <link>https://www.prestashop.com/en/blog/predictions-shopping-2020</link>
-    <description>The 2020 festive season will be unlike any other.</description>
-     <pubDate>Fri, 06 Nov 2020 17:09:49 +0100</pubDate>
- <dc:creator>Edwina Yvonne Dendler</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/predictions-shopping-2020</guid>
   </item>
   </channel>
 </rss>

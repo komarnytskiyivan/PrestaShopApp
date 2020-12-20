@@ -1,0 +1,129 @@
+.io-wishlist__navigation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #313131;
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    line-height: 47px;
+    text-align: center;
+}
+
+.io-wishlist__icon {
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-image: url('../img/wishlist.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.added .io-wishlist__icon  {
+    background-image: url('../img/wishlist_filled.svg');
+}
+
+.io-wishlist {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.io-wishlist__button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #7A7D82;
+    background: #ffffff;
+    box-shadow: none !important;
+    outline: none !important;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.io-wishlist__button .io-wishlist__icon {
+    width: 100%;
+    height: 100%;
+}
+
+.io-wishlist__button:hover {
+    opacity: .5;
+}
+
+.io-wishlist__button:before,
+.io-wishlist__button:after {
+    display: none;
+}
+
+.io-wishlist__button .icon-heart-filled {
+    color: #F20000;
+}
+
+.product-add-to-cart .io-wishlist {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.laberProductList .io-wishlist {
+    position: relative;
+    top: auto;
+    right: auto;
+}
+
+@media (max-width: 991px) {
+    .io-wishlist {
+        top: 0;
+        right: 0;
+    }
+
+    .io-wishlist__button {
+        width: 20px;
+        height: 20px;
+    }
+
+    .product-add-to-cart .io-wishlist__button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .io-wishlist__navigation {
+        width: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .product-add-to-cart .io-wishlist__button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .io-wishlist__navigation {
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+        line-height: 45px;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0 10px;
+        color: #313131 !important;
+        text-transform: uppercase;
+        border-bottom: 1px solid #ebebeb;
+        transition-duration: .5s;
+    }
+
+    .io-wishlist__navigation:hover {
+        color: #ff5555 !important;
+    }
+
+    .io-wishlist__navigation i {
+        display: none;
+    }
+}

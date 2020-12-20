@@ -1203,6 +1203,7 @@ class FrontContainer extends Container
                 58 => 'blockreassurance',
                 59 => 'ps_facetedsearch',
                 60 => 'wishlist',
+                61 => 'io_wishlist',
             ],
             'ps_cache_dir' => '/var/www/html/var/cache/prod/',
             'mail_themes_uri' => '/mails/themes',
